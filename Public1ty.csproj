@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>Public1ty</AssemblyName>
+    <Title>Public1ty</Title>
+    <Authors>Public1ty Team</Authors>
+    <Description>Making private assemblies public - your code's new best friend</Description>
+    <Copyright>MIT License</Copyright>
+    <PackageProjectUrl>https://github.com/yourusername/Public1ty</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Mono.Cecil" Version="0.11.4" />
+  </ItemGroup>
+
+</Project>
