@@ -33,3 +33,4 @@ obj/Public1ty.csproj.nuget.g.props
 obj/Public1ty.csproj.nuget.g.targets
 obj/rider.project.restore.info
 .idea/.idea.Public1ty/.idea/vcs.xml
+/bin
